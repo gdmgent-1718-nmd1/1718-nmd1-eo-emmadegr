@@ -16,3 +16,118 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+h1{color:#535252}
+h2{color:#00A19A}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.keywords {
+    font-family: 'PT Sans', serif;
+}
+p {
+    font-family: 'PT Sans', serif;
+    font-size: 12pt
+    line-height: 1.5;
+}
+
+/* Hyperlinks */
+a,
+a:visited {
+    color: #535252;
+    text-decoration: none;
+}
+a:hover {
+    color: #535252;
+    text-decoration: underline;
+}
+
+/* Knoppen */
+.button {
+    border-radius: .25em;
+    border-style: solid;
+    border-width: 0 0 .25em;
+    display: inline-block;
+    font-weight: bold;
+    padding: .25em .5em;
+    text-decoration: none;
+}
+.button:hover {
+    text-decoration: none;
+}
+.button--default,
+.button--default:active,
+.button--default:visited {
+    background-color:    hsla(0, 100%, 42%, 1);
+    border-bottom-color: hsla(0, 100%, 20%, 1);
+    color: #FFF;
+}
+.button--default:hover {
+    background-color:    hsla(0, 100%, 50%, 1);
+    border-bottom-color: hsla(0, 100%, 30%, 1);
+    color: #FFF;
+}
+.button--primary,
+.button--primary:active,
+.button--primary:visited {
+    background-color:    hsla(55, 100%, 50%, 1);
+    border-bottom-color: hsla(55, 100%, 30%, 1);
+    color: #FFF;
+}
+.button--primary:hover {
+    background-color:    hsla(55, 100%, 60%, 1);
+    border-bottom-color: hsla(55, 100%, 40%, 1);
+    color: #FFF;
+}
+.button--danger,
+.button--danger:active,
+.button--danger:visited {
+    background-color:   hsla(126, 60%, 61%, 1);
+    border-bottom-color:hsla(126,60%, 30%, 1);
+    color: #FFF;
+}
+.button--danger:hover {
+      background-color:   hsla(126, 60%, 70%, 1);
+    border-bottom-color:hsla(126,60%, 40%, 1);
+    color: #FFF;
+}
+.button--success,
+.button--success:active,
+.button--success:visited {
+    background-color:    hsla(73, 100%, 50%, 1);
+    border-bottom-color: hsla(73, 100%, 30%, 1);
+    color: #FFF;
+}
+.button--success:hover {
+     background-color:    hsla(73, 100%, 60%, 1);
+    border-bottom-color: hsla(73, 100%, 40%, 1);
+    color: #FFF;
+}
+
+/* Kleuren */
+.colours__colour--a {
+    background-color: hsla(126, 60%, 61%, 1);
+}
+.colours__colour--b {
+    background-color: hsla(73, 100%, 50%, 1);
+}
+.colours__colour--c {
+    background-color: hsla(55, 100%, 50%, 1)
+}
+.colours__colour--d {
+    background-color: hsla(27, 100%, 59%, 1)
+}
+
+body {
+  font-family: 'PT Sans', serif;
+  font-size: 100%;
+  line-height: 1.2em;
+  width: 100%;
+  margin: auto;
+  max-width: 1000px;
+  background: hsla(67, 63%, 57%, 1);
+}
