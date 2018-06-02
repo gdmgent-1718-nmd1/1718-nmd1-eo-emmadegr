@@ -53,25 +53,24 @@ a:hover {
 
 /* Knoppen */
 .button {
-    border-radius: .25em;
+    border-radius: .0em;
     border-style: solid;
-    border-width: 0 0 .25em;
-    display: inline-block;
+    border-width: 0 0 .0em;
     font-weight: bold;
-    padding: .25em .5em;
+    font-size: 12pt;
+    padding: .50em .9em;
     text-decoration: none;
+    box-shadow: 0 0 3px #000;    
 }
 .button:hover {
     text-decoration: none;
 }
 .button--default,
-.button--default:active,
 .button--default:visited {
     background-color:    #C6D64D;
     color: #FFF;
 }
 .button--primary,
-.button--primary:active,
 .button--primary:visited {
     background-color:    #E4F40C;
     color: #FFF;
