@@ -1,5 +1,5 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'PT sans', sans-serif;
     font-weight: 400;
     letter-spacing: -.022em;
     font-synthesis: none;
@@ -12,10 +12,9 @@ body {
 }
 
 img {
-    max-width: 100%; /* Afbeeldingen responsive maken */
+    max-width: 100%; 
 }
 
-/* Voeg jouw css hieraan toe */
 
 h1{color:#00A199;
     font-stretch: expanded;
@@ -37,15 +36,18 @@ nav   {
     font-family: 'PT Sans', serif;
     color: #9D9D9C;
     line-height: 1.5;
+    font-size: 12pt;  
+    text-decoration: none;
     font-weight: bold;
-    font-size: 12pt;    
+
+nav
 }
 
-/* Hyperlinks */
+/* links */
 a,
 a:visited {
     color: #535252;
-    text-decoration: underline;
+    text-decoration: none;
     font-weight: bold;
     font-family: 'PT Sans', serif;
 }
