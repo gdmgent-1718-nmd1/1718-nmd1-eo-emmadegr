@@ -18,14 +18,14 @@ img {
 
 h1{color:#00A199;
     font-stretch: expanded;
+    font-size: 40pt;
 }
 h2{color:#545352;
-    font-style: italic
+    font-style: italic;
+    font-size: 24pt;
 }
  
-.keywords {
-    font-family: 'PT Sans', serif;
-}
+
 p {
     font-family: 'PT Sans', serif;
     line-height: 1.5;
@@ -81,7 +81,6 @@ a:hover {
     background-color:    #C6D64D;
     color: #FFF;
 }
-
 
 /* Kleuren */
 .colours__colour--a {
