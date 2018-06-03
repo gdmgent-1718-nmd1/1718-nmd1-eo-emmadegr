@@ -47,6 +47,7 @@ a:visited {
     color: #535252;
     text-decoration: underline;
     font-weight: bold;
+    font-family: 'PT Sans', serif;
 }
 a:hover {
     color: #535252;
@@ -64,18 +65,21 @@ a:hover {
     padding: .60em .9em;
     text-decoration: none;
     box-shadow: 0 0 3px #000;    
+    font-family: 'PT Sans', serif;
 }
 
-.button--inactive,
-.button--inactive:visited {
+.button--betalen,
+.button--betalen:visited {
     background-color:    #C6D64D;
     color: #FFF;
 }
-.button--active,
-.button--active:visited {
-    background-color:    #E4F40C;
+
+.button--verstuur,
+.button--verstuur:visited {
+    background-color:    #C6D64D;
     color: #FFF;
 }
+
 
 /* Kleuren */
 .colours__colour--a {
