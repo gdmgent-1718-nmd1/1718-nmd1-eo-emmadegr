@@ -23,26 +23,29 @@ h1{color:#00A199;
 h2{color:#545352;
     font-style: italic
 }
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
+ 
 .keywords {
     font-family: 'PT Sans', serif;
 }
 p {
     font-family: 'PT Sans', serif;
     line-height: 1.5;
+    font-size: 12pt;
+}
+
+nav   {
+    font-family: 'PT Sans', serif;
+    color: #9D9D9C;
+    line-height: 1.5;
+    font-weight: bold;
+    font-size: 12pt;    
 }
 
 /* Hyperlinks */
 a,
 a:visited {
     color: #535252;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bold;
 }
 a:hover {
@@ -58,20 +61,18 @@ a:hover {
     border-width: 0 0 .0em;
     font-weight: bold;
     font-size: 12pt;
-    padding: .50em .9em;
+    padding: .60em .9em;
     text-decoration: none;
     box-shadow: 0 0 3px #000;    
 }
-.button:hover {
-    text-decoration: none;
-}
-.button--default,
-.button--default:visited {
+
+.button--inactive,
+.button--inactive:visited {
     background-color:    #C6D64D;
     color: #FFF;
 }
-.button--primary,
-.button--primary:visited {
+.button--active,
+.button--active:visited {
     background-color:    #E4F40C;
     color: #FFF;
 }
